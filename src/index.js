@@ -53,7 +53,7 @@ function handleSearchSubmit(event) {
 }
 
 function displayForecast() {
-  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
   let forecastHtml = "";
 
   days.forEach(function (day) {
